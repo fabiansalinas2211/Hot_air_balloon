@@ -1,0 +1,148 @@
+h1 {
+  color: rgb(65, 3, 94);
+  font-size: 50px;
+  width: 400px;
+  margin-top: 55px;
+  text-align: right;
+}
+
+li {
+  color: rgb(65, 3, 94);
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+}
+
+html {
+  font-size: 100%;
+  background-color: rgb(254, 255, 255);
+}
+
+nav {
+  background-image: url(../IMG/sunset.jpg);
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-size: 50% 30%;
+  position: sticky;
+  top: 5px;
+  box-sizing: border-box;
+  display: flex;
+  height: 150px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  width: 700px;
+  position: absolute;
+  right: 2px;
+  margin-top: 44px;
+}
+
+nav ul li {
+  margin: 30px;
+
+  font-size: 25px;
+}
+
+html {
+  font-size: 40;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 2000;
+  position: static;
+  left: 740px;
+}
+
+.container {
+  display: flex;
+}
+
+.location {
+  width: 500px;
+}
+
+.foto-globo-1 {
+  width: 800px;
+}
+
+footer {
+  background-color: rgb(99, 98, 98);
+  width: 100%;
+}
+
+footer .social a {
+  font-size: 50px;
+  color: white;
+  position: relative;
+  left: 1000px;
+  margin-top: 10px;
+}
+
+.fuente {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 30px;
+  font-size: 39.7px;
+}
+
+h2 {
+  position: relative;
+  left: 300px;
+}
+.li-about {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+section {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+#about {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "photo includes"
+    "photo days"
+    "photo duration"
+    "photo paragraph";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  height: 100%;
+}
+
+header {
+  grid-area: header;
+}
+section#photo {
+  grid-area: photo;
+}
+ul.includes {
+  grid-area: includes;
+}
+ul.days {
+  grid-area: days;
+}
+ul.duration {
+  grid-area: duration;
+}
+
+body {
+  height: 75%;
+  width: 100%;
+}
+
+.globo2 {
+  width: 100%;
+  height: 100%;
+  border: 20px;
+}
+
+@media screen and (min-width: 780px) {
+}
