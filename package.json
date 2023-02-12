@@ -1,0 +1,24 @@
+{
+  "name": "proyecto_hab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  css/styles1.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiansalinas2211/Hot_air_balloon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiansalinas2211/Hot_air_balloon/issues"
+  },
+  "homepage": "https://github.com/fabiansalinas2211/Hot_air_balloon#readme",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}
