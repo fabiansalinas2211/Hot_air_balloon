@@ -1,0 +1,36 @@
+//nesting--anidacion
+
+.botones{
+    background-image: url(../IMG/sunset.jpg);
+    ul{
+        li{
+            a{
+                font-size: 1.4 em;
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.main{
+    article{
+        img{
+            @media (max-width:768px){
+                width: 90%;
+                margin: 10 px auto;
+                display:block;
+            }
+        }
+    }
+}
+.color{
+    background-color: rgb(99, 98, 98);
+    a{
+        font-size: 20px;
+        color: white;
+    }
+}
+.carousel-item{
+    transition: $carousel-transition;
+}
