@@ -16,10 +16,13 @@
 .main{
     article{
         img{
-            @media (max-width:768px){
+            @include imagen (576px){
+                width: 90%;}
+            @include imagen(768px){
                 width: 90%;
-                margin: 10 px auto;
-                display:block;
+            }
+            @include imagen(992px){
+                width: 90%;
             }
         }
     }
@@ -31,10 +34,9 @@
         color: white;
     }
 }
-.carousel-item{
-    transition: $carousel-transition;
-}
+
 
 .navbar-brand{
     font-size: 20px;
 }
+
